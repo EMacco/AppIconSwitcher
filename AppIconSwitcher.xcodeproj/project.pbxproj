@@ -16,6 +16,8 @@
 		FFF10EB829A112DD000926F2 /* AppIconSwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF10EB729A112DD000926F2 /* AppIconSwitcherTests.swift */; };
 		FFF10EC229A112DD000926F2 /* AppIconSwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF10EC129A112DD000926F2 /* AppIconSwitcherUITests.swift */; };
 		FFF10EC429A112DD000926F2 /* AppIconSwitcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF10EC329A112DD000926F2 /* AppIconSwitcherUITestsLaunchTests.swift */; };
+		FFF10ED929A13505000926F2 /* Dog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF10ED529A13505000926F2 /* Dog@2x.png */; };
+		FFF10EDA29A13505000926F2 /* Dog@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF10ED629A13505000926F2 /* Dog@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FFF10EBD29A112DD000926F2 /* AppIconSwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppIconSwitcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF10EC129A112DD000926F2 /* AppIconSwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconSwitcherUITests.swift; sourceTree = "<group>"; };
 		FFF10EC329A112DD000926F2 /* AppIconSwitcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconSwitcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFF10ED529A13505000926F2 /* Dog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dog@2x.png"; sourceTree = "<group>"; };
+		FFF10ED629A13505000926F2 /* Dog@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dog@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		FFF10E9F29A112DD000926F2 /* AppIconSwitcher */ = {
 			isa = PBXGroup;
 			children = (
+				FFF10ED029A13505000926F2 /* AppIcons */,
 				FFF10EA029A112DD000926F2 /* AppDelegate.swift */,
 				FFF10EA229A112DD000926F2 /* SceneDelegate.swift */,
 				FFF10EA429A112DD000926F2 /* ViewController.swift */,
@@ -125,6 +130,23 @@
 				FFF10EC329A112DD000926F2 /* AppIconSwitcherUITestsLaunchTests.swift */,
 			);
 			path = AppIconSwitcherUITests;
+			sourceTree = "<group>";
+		};
+		FFF10ED029A13505000926F2 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				FFF10ED429A13505000926F2 /* Dog */,
+			);
+			path = AppIcons;
+			sourceTree = "<group>";
+		};
+		FFF10ED429A13505000926F2 /* Dog */ = {
+			isa = PBXGroup;
+			children = (
+				FFF10ED529A13505000926F2 /* Dog@2x.png */,
+				FFF10ED629A13505000926F2 /* Dog@3x.png */,
+			);
+			path = Dog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +253,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF10ED929A13505000926F2 /* Dog@2x.png in Resources */,
 				FFF10EAD29A112DD000926F2 /* LaunchScreen.storyboard in Resources */,
+				FFF10EDA29A13505000926F2 /* Dog@3x.png in Resources */,
 				FFF10EAA29A112DD000926F2 /* Assets.xcassets in Resources */,
 				FFF10EA829A112DD000926F2 /* Main.storyboard in Resources */,
 			);
